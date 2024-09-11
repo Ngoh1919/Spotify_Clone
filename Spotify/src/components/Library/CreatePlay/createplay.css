@@ -1,0 +1,40 @@
+.creating_playlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #191919;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 15px;
+}
+
+.creating_playlistText{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.creating_playlistText h1{
+    font-size: 16px;
+    color: #fff;
+}
+.creating_playlistText h6{
+    font-size: 13px;
+    color: #fff;
+}
+.creating_playlistDiv button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 12px;
+    width: auto;
+    border-radius: 40px;
+    border: none;
+    padding:10px;
+}
+.create_browse:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}

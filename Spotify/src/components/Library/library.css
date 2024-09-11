@@ -1,0 +1,115 @@
+.library_section{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 15px;
+    background-color: #121212;
+    border-radius: 5px;
+    padding: 16px;
+    
+    min-width: 300px;
+    height: 34.6rem;
+}
+.library_sectionTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.collapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #121212;
+    border: none;
+    color: #B3B3B3;
+    
+    
+}
+.collapse:hover{
+    cursor: pointer;
+    color: white;
+}
+.collapse:hover .Svg-library{
+   fill: white;
+}
+
+.library_text{
+    font-size: 15px;
+}
+.Svg-library{
+    width: 19px;
+    height: 19px;
+    fill: #B3B3B3;
+}
+.library_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.plus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.plus span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.plus:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+.extend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.extend span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.extend:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+
+.Svg-plus{
+    fill: #B3B3B3;
+    width: 16px;
+    height: 16px;
+}
+.Svg-extend{
+    width: 16px;
+    height: 16px;  
+    fill: #B3B3B3;  
+}
+
+.playlist_songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,1 @@
+export { default as Mains } from './Mains/Main';

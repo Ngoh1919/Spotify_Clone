@@ -1,0 +1,56 @@
+.audio_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: none;
+    
+
+}
+.audio_buttonsPlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height:38px;
+}
+.audio_buttonsPlay:hover{
+    cursor: pointer;
+    transform: scale(1.1)    
+}
+.audio_buttonsPlay:hover svg{
+    width: 19px;
+    height: 19px;   
+}
+
+.audio_buttonsPlay svg{
+    fill: black;
+    width: 18px;
+    height: 18px;
+}
+
+.audio_buttons:hover svg{
+    width: 17px;
+    height: 17px;
+    fill: white;
+}
+.audio_buttons:hover{
+    cursor: pointer;
+}
+span{
+    display: flex;
+   
+    align-items: center;
+    
+}
+svg{
+    fill: #B3B3B3;
+    width: 16px;
+    height: 16px;
+   
+}

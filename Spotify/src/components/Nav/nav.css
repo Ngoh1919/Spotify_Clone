@@ -1,0 +1,83 @@
+.navigation_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    background-color: #121212;
+    padding: 16px;
+    border-radius: 5px;    
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+}
+
+.home_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: #121212;
+    border: none;    
+}
+.home_button:hover{
+    cursor: pointer;
+}
+.home_button:hover .Svg_home{
+    transform: scale(1.1);
+        
+}
+.home_button:hover .home_text{
+   font-size: 13px;
+}
+
+.gen_search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: #B3B3B3;
+    background-color: #121212;
+    border: none;   
+}
+.gen_search:hover{
+    cursor: pointer;
+}
+.gen_search:hover .Svg_search{
+    transform: scale(1.1);
+    fill: white;            
+}
+.gen_search:hover .search_text{
+    font-size: 13px;
+    color: white;
+}
+
+.Svg_home{
+   fill: white;
+   width: 16px;
+   height: 16px;
+}
+.home_text{
+    font-size: 12px;
+}
+
+
+.Svg_search{
+    fill: #B3B3B3;
+    width: 16px;
+    height: 16px;
+}
+.search_text{
+    font-size: 12px;
+}

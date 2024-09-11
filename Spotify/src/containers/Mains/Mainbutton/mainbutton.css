@@ -1,0 +1,60 @@
+.button_main{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button_mainSpan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.install_app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.first_letterName{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width:30px ;
+    height:30px ;   
+    background-color: aquamarine;
+    border-radius: 50%;
+    color: black;
+}
+.main_sectionNav2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+svg{
+    fill: white;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:hover .main_right{
+    width: 17px;
+    height: 17px;
+    fill: white;
+}
+button:hover .main_left{
+    width: 17px;
+    height: 17px;
+    fill: white;
+}
+button:hover a{
+    text-decoration: underline;
+    color: white;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
